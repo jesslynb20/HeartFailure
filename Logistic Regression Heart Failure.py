@@ -11,7 +11,7 @@ print(df.info())
 # Bagian ini untuk membagi data train dan data test
 from sklearn.model_selection import train_test_split
 
-feature_cols = ["creatinine_phosphokinase", "ejection_fraction", "high_blood_pressure", "platelets", "serum_creatinine", "serum_sodium"]
+feature_cols = ["creatinine_phosphokinase", "ejection_fraction", "high_blood_pressure", "platelets", "serum_creatinine", "serum_sodium", "time"]
 X = df[feature_cols]
 y = df["DEATH_EVENT"]
 
