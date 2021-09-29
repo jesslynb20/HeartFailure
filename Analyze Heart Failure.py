@@ -8,6 +8,9 @@ print(df.head())
 print("\n Info dataset:")
 print(df.info())
 
+print("\n Summary of dataset:")
+print(df.describe())
+
 import matplotlib.pyplot as plt
 
 #Bagian ini untuk memplot banyak laki-laki dan perempuan yang meninggal akibat gagal jantung
